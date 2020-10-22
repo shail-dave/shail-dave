@@ -13,7 +13,7 @@ My research at Compiler Micro-architecture Lab (CML), ASU is advised by Prof. Av
 Key topics: Sources of sparsity in tensors; implications of irregular or structured sparsity on hardware acceleration; analysis on sparsity-encoding schemes on storage; impact of varying sparsity and tensor shapes of different DNN operations on data reuse; techniques for data extraction and load balancing of effectual computations; sparsity-aware dataflows; leveraging value similarity in tensors; trends and directions for hardware/model codesigns for DNNs, etc.
 
 • dMazeRunner: Executing Perfectly Nested Loops on Dataflow Accelerators, ACM Transactions on Embedded Computing Systems, 2019 (Special Issue on CODES+ISSS 2019).
-(code for optimization of dataflow mappings for DNNs and design explorations of hardware accelerators: https://github.com/MPSLab-ASU/dMazeRunner)
+Key topics: Defining comprehensive hardware/software design space for loop nests; Accelerator cost model for evaluating execution metrics for variations in hardware architecture, dataflows, model layers, Search-space reduction techniques for getting efficient mappings in a few seconds; Generic algorithms for obtaining all unique data reuse scenarios for loop-orderings. (Code for optimization of dataflow mappings for DNNs and design explorations of hardware accelerators: https://github.com/MPSLab-ASU/dMazeRunner)
 
 • RAMP: resource-aware mapping for CGRAs, In 55th annual Design Automation Conference, 2018
 (Mapping optimizations for accelerating loops of general-purpose computing).
